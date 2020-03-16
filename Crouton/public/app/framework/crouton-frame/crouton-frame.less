@@ -11,7 +11,12 @@ crouton-frame {
     display: inline-block;
     width: 100%;
     min-height: 100vh;
-    background-color: @container-bg;
+    /*background-color: @container-bg;*/
+    background: rgb(162,19,100);
+    background: -moz-linear-gradient(0deg, rgba(162,19,100,1) 5%, rgba(68,23,66,1) 85%);
+    background: -webkit-linear-gradient(0deg, rgba(162,19,100,1) 5%, rgba(68,23,66,1) 85%);
+    background: linear-gradient(0deg, rgba(162,19,100,1) 5%, rgba(68,23,66,1) 85%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#a21364",endColorstr="#441742",GradientType=1);
     padding: @container-padding;
     padding-left: @container-padding - @toastcss-margin;
     padding-top: @container-padding - 10px;

@@ -29,7 +29,7 @@ Some routing...may put this in another file later
 */
 app.get(['/','/crouton','/crouton/*'], function (req, res) {
   var returnObj = {};
-  returnObj.title = "Crouton";
+  returnObj.title = "Demo Monitor";
   returnObj.css = [
     '/static/common/bower/font-awesome/css/font-awesome.min.css',
     '/static/common/css/toast.css',
