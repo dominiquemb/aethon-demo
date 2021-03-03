@@ -16,7 +16,7 @@
     "grunt-contrib-pug": "0.0.0",
     "grunt-sync": "^0.5.2",
     "jit-grunt": "^0.9.1",
-    "pug": "^2.0.0-alpha6",
+    "pug": "^3.0.1",
     "readdirp": "^2.0.0"
   },
   "devDependencies": {
