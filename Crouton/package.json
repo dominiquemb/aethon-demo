@@ -12,7 +12,7 @@
   "license": "MIT",
   "dependencies": {
     "bower": "^1.5.2",
-    "express": "^4.13.3",
+    "express": "^4.17.3",
     "grunt-contrib-pug": "0.0.0",
     "grunt-sync": "^0.5.2",
     "jit-grunt": "^0.9.1",
